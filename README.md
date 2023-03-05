@@ -11,13 +11,13 @@
 
 ## Leitura de dados
 
-A leitura de dados em Python é feita utilizando a função embutida “input”:
+A leitura de dados em Python é feita utilizando a função embutida “input()”:
 
 ~~~
 variável = input()
 ~~~
 
-É possível adicionar uma mensagem para ser exibida na solicitação dos dados de entrada. Para isso, deve-se colocar duas aspas dentro da função “input” — as aspas podem ser simples ou duplas. O importante é manter o mesmo padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
+É possível adicionar uma mensagem para ser exibida na solicitação dos dados de entrada. Para isso, deve-se inserir duas aspas dentro da função “input()” — as aspas podem ser simples ou duplas. O importante é manter o mesmo padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
 
 ~~~
 variável = input(‘Digite algo: ’)
@@ -25,7 +25,7 @@ variável = input(‘Digite algo: ’)
 
 ## Conversão de variáveis
 
-Por padrão, a variável lida sempre é do tipo “string”. Então, para fazer a conversão para outro tipo de variável, é necessário adicionar o nome do tipo da variável desejada seguida de parênteses e dentro dos parênteses o nome da variável lida:
+Por padrão, as variáveis lidas sempre são do tipo “string”. Então, para converter uma "string" em outro tipo de variável, é preciso inserir o nome dado à váriável lida dentro da função de conversão desejada. Por exemplo:
 
 ~~~
 número = input('Digite um número: ')
@@ -58,3 +58,4 @@ Será exibida a seguinte mensagem:
 ~~~
 <class ‘int’>
 ~~~
+
