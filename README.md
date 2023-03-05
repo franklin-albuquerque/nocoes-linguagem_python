@@ -17,7 +17,7 @@ A leitura de dados em Python é feita utilizando a função embutida “input”
 variável = input()
 ~~~
 
-É possível adicionar uma mensagem para ser exibida na solicitação dos dados de entrada. Para isso, deve-se colocar duas aspas dentro da função “input” — as aspas podem ser simples ou duplas. O importante é manter o mesmo padrão de escrita, ou seja, sempre utilizar aspas simples ou aspas duplas.
+É possível adicionar uma mensagem para ser exibida na solicitação dos dados de entrada. Para isso, deve-se colocar duas aspas dentro da função “input” — as aspas podem ser simples ou duplas. O importante é manter o mesmo padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
 
 ~~~
 variável = input(‘Digite algo: ’)
@@ -37,7 +37,11 @@ Também é possível fazer a conversão durante a leitura dos dados de entrada:
 x = int(input(‘Digite um número: ‘))
 ~~~
 
-Se for feita uma tentativa de conversão para um tipo de dado diferente daquele que foi solicitado, será exibido um erro de valor — “ValueError”.
+No caso acima, se for inserido um valor que não seja um número inteiro, será exibida a seguinte mensagem de erro:
+
+~~~
+ValueError: invalid literal for int() with base 10
+~~~
 
 ## Tipos de dados
 
