@@ -27,7 +27,9 @@ variável = input(‘Digite algo: ’)
 
 Por padrão, a variável lida sempre é do tipo “string”. Então, para fazer a conversão para outro tipo de variável, é necessário adicionar o nome do tipo da variável desejada seguida de parênteses e dentro dos parênteses o nome da variável lida:
 
-## variável = int(variável)
+~~~
+variável = int(variável)
+~~~
 
 Também é possível fazer a conversão durante a leitura dos dados de entrada:
 
