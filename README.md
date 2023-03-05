@@ -28,13 +28,14 @@ variável = input(‘Digite algo: ’)
 Por padrão, a variável lida sempre é do tipo “string”. Então, para fazer a conversão para outro tipo de variável, é necessário adicionar o nome do tipo da variável desejada seguida de parênteses e dentro dos parênteses o nome da variável lida:
 
 ~~~
-variável = int(variável)
+número = input('Digite um número: ')
+número = int(número)
 ~~~
 
-Também é possível fazer a conversão durante a leitura dos dados de entrada:
+Também é possível fazer a leitura e conversão dos dados simultaneamente:
 
 ~~~
-x = int(input(‘Digite um número: ‘))
+número = int(input(‘Digite um número: ‘))
 ~~~
 
 No caso acima, se for inserido um valor que não seja um número inteiro, será exibida a seguinte mensagem de erro:
