@@ -6,12 +6,13 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 
 Em programação, as variáveis são usadas para armazenar dados na memória do computador. Elas têm um nome e um tipo de dados associado, que determina o que pode ser armazenado nelas.
 
-+ **int:** números inteiros
-+ **float:** pontos flutuantes (números reais)
-+ **string:** cadeia de caracteres alfanuméricos
-+ **list:** listas
-+ **tuple:** tuplas
-+ **dict:** dicionários
++ **Inteiros (int)**
++ **Pontos flutuantes (float)**
++ **Strings (str)**
++ **Booleanos (bool)**
++ **Listas (list)**
++ **Tuplas (tuple)**
++ **Dicionários (dict)**
 
 ### Inicialização de variáveis
 
