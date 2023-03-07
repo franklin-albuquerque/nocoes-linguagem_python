@@ -4,6 +4,8 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 
 ## **Variáveis**
 
+Em programação, as variáveis são usadas para armazenar dados na memória do computador. Elas têm um nome e um tipo de dados associado, que determina o que pode ser armazenado nelas.
+
 + **int:** números inteiros
 + **float:** pontos flutuantes (números reais)
 + **string:** cadeia de caracteres alfanuméricos
@@ -13,7 +15,7 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 
 ## Leitura de dados
 
-A leitura de dados em Python é feita utilizando a função “input()”. Por padrão, o "input()" recebe como parâmetro uma string:
+A leitura de dados em Python é feita utilizando a função “input()” — que recebe como parâmetro uma string:
 
 ~~~
 string = input()
@@ -27,29 +29,29 @@ string = input(‘Digite algo: ’)
 
 ## Conversão de variáveis
 
-Como mencionado, a entrada de dados sempre é tratada como sendo uma string. Assim, para converter uma string em outro tipo de variável, é necessário inserir em uma função de conversão o nome que foi atribuído à variável lida.
+Como mencionado anteriormente, os dados de entrada sempre são tratados como sendo strings. Assim, para converter essa string em outro tipo de variável, é necessário usar uma função de conversão. 
 
-Para converter uma string em número inteiro, é necessário usar a função "int()":
+Para converter uma string em um número inteiro, usa-se a função "int()":
 
 ~~~
 string = "123"
 número_inteiro = int(string)
 ~~~
 
-Para converter uma string em um ponto flutuante, é necessário usar a função "float()":
+Para converter uma string em um ponto flutuante, usa-se a função "float()":
 
 ~~~
 string = "7.2"
 ponto_flutuante = float(string)
 ~~~
 
-Também é possível fazer a leitura e conversão dos dados simultaneamente:
+Também é possível fazer, simultaneamente, a leitura e conversão dos dados:
 
 ~~~
 número = int(input(‘Digite um número: ‘))
 ~~~
 
-No exemplo acima, se for inserido um valor que não seja um número inteiro, será exibida a seguinte mensagem de erro:
+No exemplo acima, caso o usuário informe um valor que não corresponda a um número inteiro, será exibida a seguinte mensagem de erro:
 
 ~~~
 ValueError: invalid literal for int() with base 10
@@ -57,7 +59,7 @@ ValueError: invalid literal for int() with base 10
 
 ## Tipos de dados
 
-Para verificar o tipo de uma variável, usa-se a função "type()":
+Para verificar o tipo de uma variável "x", usa-se a função "type()":
 
 ~~~
 x = 42
