@@ -13,6 +13,20 @@ Em programação, as variáveis são usadas para armazenar dados na memória do 
 + **tuple:** tuplas
 + **dict:** dicionários
 
+### Inicialização de variáveis
+
+A inicialização de uma variável é feita atribuindo um valor a ela usando o operador de atribuição "=":
+
+Por exemplo, para inicializar uma variável "x" com valor 42, escreve-se o seguinte:
+
+~~~
+x = 42
+~~~
+
+Também é possível inicializar mais de uma variável de uma só vez:
+
+a, b, c, d = 1, 2, 3, 4
+
 ## Leitura de dados
 
 A leitura de dados em Python é feita utilizando a função “input()” — que recebe como parâmetro uma string:
