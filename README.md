@@ -25,17 +25,30 @@ x = 42
 
 Também é possível inicializar mais de uma variável de uma só vez:
 
+~~~
 a, b, c, d = 1, 2, 3, 4
+~~~
 
-## Leitura de dados
+## Noções básicas sobre entrada e saída de dados
 
-A leitura de dados em Python é feita utilizando a função “input()” — que recebe como parâmetro uma string:
+### Saída
+
+Para exibir uma mensagem ao usuário, utiliza-se a função "print()":
+
+~~~
+string = "Olá, mundo!"
+print(string)
+~~~
+
+### Entrada
+
+A entrada de dados em Python é feita utilizando a função "input()". Por padrão, o "input()" recebe como parâmetro uma string.
 
 ~~~
 string = input()
 ~~~
 
-É possível exibir uma mensagem na solicitação dos dados de entrada. Para isso, deve-se inserir duas aspas dentro da função "input()" — as aspas podem ser simples ou duplas. Mas é recomendado manter um padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
+Para solicitar os dados ao usuário exibindo uma mensagem, deve-se inserir a mensagem entre duas aspas na função "input()" — as aspas podem ser simples ou duplas. Mas é importante manter um padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
 
 ~~~
 string = input(‘Digite algo: ’)
