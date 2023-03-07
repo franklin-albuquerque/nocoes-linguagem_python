@@ -1,5 +1,7 @@
 # **Python**
 
+Python é uma linguagem de programação de alto nível, interpretada, orientada a objetos e de propósito geral. Ela é utilizada em uma ampla variedade de aplicações, desde desenvolvimento de software, automação de tarefas, inteligência artificial, análise de dados e desenvolvimento web, entre outros.
+
 ## **Variáveis**
 
 + **int:** números inteiros
@@ -11,13 +13,13 @@
 
 ## Leitura de dados
 
-A leitura de dados em Python é feita utilizando a função embutida “input()”:
+A leitura de dados em Python é feita utilizando a função “input()”. Por padrão, o "input()" recebe como parâmetro uma string:
 
 ~~~
 string = input()
 ~~~
 
-É possível adicionar uma mensagem para ser exibida na solicitação dos dados de entrada. Para isso, deve-se inserir duas aspas dentro da função “input()” — as aspas podem ser simples ou duplas. O importante é manter o mesmo padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
+É possível exibir uma mensagem na solicitação dos dados de entrada. Para isso, deve-se inserir duas aspas dentro da função "input()" — as aspas podem ser simples ou duplas. Mas é recomendado manter um padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
 
 ~~~
 string = input(‘Digite algo: ’)
@@ -25,7 +27,7 @@ string = input(‘Digite algo: ’)
 
 ## Conversão de variáveis
 
-Por padrão, as variáveis lidas sempre são do tipo string. Então, para converter uma string em outro tipo de variável, é preciso inserir o nome dado à váriável lida dentro da função de conversão desejada. Por exemplo:
+Como mencionado, a entrada de dados sempre é tratada como sendo uma string. Assim, para converter uma string em outro tipo de variável, é necessário inserir em uma função de conversão o nome que foi atribuído à variável lida.
 
 Para converter uma string em número inteiro, é necessário usar a função "int()":
 
@@ -55,7 +57,7 @@ ValueError: invalid literal for int() with base 10
 
 ## Tipos de dados
 
-Se uma variável “x” tiver um valor inteiro, pode-se usar a função “type” para verificar o tipo de “x”:
+Para verificar o tipo de uma variável, usa-se a função "type()":
 
 ~~~
 x = 42
