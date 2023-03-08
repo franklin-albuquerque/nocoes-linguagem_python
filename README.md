@@ -7,19 +7,19 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 Em programação, as variáveis são usadas para armazenar dados na memória do computador. Elas têm um nome e um tipo de dados associado, que determina o que pode ser armazenado nelas.
 
 ### **Variáveis simples**
-+ **Inteiros (int):** são números inteiros, ou seja, não possuem casas decimais, como 1, 2, 3, etc.
-+ **Números de ponto flutuante (float):** são números com casas decimais, como 0.75, 1.0, 3.14, etc.
-+ **Booleanos (bool):** são expressões lógicas, cujo valor pode ser *True* ou *False*.
++ **Inteiros (int):** são números inteiros, positivos ou negativos, sem parte fracionária. Por exemplo: 1, -3, 0, 18.
++ **Números de ponto flutuante (float):** são números com parte fracionária, representado com um ponto decimal. Por exemplo: 0.75, -2.0, 1.0, 3.14.
++ **Booleanos (bool):** são expressões lógicas, cujo valor pode ser *verdadeiro* ou *falso* (*True* ou *False*).
 
 ### **Variáveis sequenciais**
-+ **Strings (str)**
-+ **Listas (list)**
-+ **Tuplas (tuple)**
-+ **Dicionários (dict)**
++ **Strings (str):** strings são sequências de caracteres, como palavras ou frases.
++ **Listas (list):** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. 
++ **Tuplas (tuple):** são semelhantes às listas, mas são imutáveis.
++ **Dicionários (dict):** são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente.
 
 ### Inicialização de variáveis
 
-A inicialização de uma variável é feita atribuindo um valor a ela usando o operador de atribuição (=):
+A inicialização de uma variável é feita ao atribuir um valor a ela usando o operador de atribuição (=):
 
 Por exemplo, para inicializar uma variável "x" com valor 42, digita-se o seguinte:
 
