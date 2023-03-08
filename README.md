@@ -6,16 +6,24 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 
 Em programação, as variáveis são usadas para armazenar dados na memória do computador. Elas têm um nome e um tipo de dados associado, que determina o que pode ser armazenado nelas.
 
-### **Variáveis simples**
-+ **Inteiros (int):** são números inteiros, positivos ou negativos, sem parte fracionária. Por exemplo: 1, -3, 0, 18.
-+ **Números de ponto flutuante (float):** são números com parte fracionária, representado com um ponto decimal. Por exemplo: 0.75, -2.0, 1.0, 3.14.
-+ **Booleanos (bool):** são expressões lógicas, cujo valor pode ser *verdadeiro* ou *falso* (*True* ou *False*).
+#### 1. **Variáveis númericas**
++ **int:** corresponde aos números inteiros, positivos ou negativos. Por exemplo: 1, -3, 0, 18.
++ **float:** os pontos flutuantes são números com parte fracionária. Por exemplo: 0.75, -2.0, 1.0, 3.14.
 
-### **Variáveis sequenciais**
-+ **Strings (str):** strings são sequências de caracteres, como palavras ou frases.
-+ **Listas (list):** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. As listas são definidas utilizando colchetes **[]**, onde os elementos são separados por vírgulas.
-+ **Tuplas (tuple):** são semelhantes às listas, mas são imutáveis. As tuplas são definidos utilizando parênteses **()**. 
-+ **Dicionários (dict):** dicionários são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente. São definidos utilizando chaves **{}**, com cada par chave-valor sendo separado por vírgula.
+#### 2. **Variáveis booleanas**
++ **bool:** representando as expressões lógicas *verdadeiro* ou *falso* (*True* ou *False*).
+
+#### 3. **Variáveis de texto**
++ **str:** strings são sequências de caracteres, como palavras ou frases.
+
+#### 4. **Variáveis de lista**
++ **list:** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. As listas são definidas utilizando colchetes **[]**, onde os elementos são separados por vírgulas.
+
+#### 5. **Variáveis de tupla**
++ **tuple:** são semelhantes às listas, mas são imutáveis. As tuplas são definidos utilizando parênteses **()**. 
+
+#### 6. **Variáveis de dicionário**
++ **dict:** dicionários são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente. São definidos utilizando chaves **{}**, com cada par chave-valor sendo separado por vírgula.
 
 ### Inicialização de variáveis
 
