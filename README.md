@@ -8,25 +8,15 @@ Em programação, as variáveis são usadas para armazenar dados na memória do 
 
 ### **Variáveis básicas**
 
-#### 1. **Variáveis númericas**
-+ **int:** corresponde aos números inteiros, positivos ou negativos. Por exemplo: 1, -3, 0, 18.
-+ **float:** os pontos flutuantes são números com parte fracionária. Por exemplo: 0.75, -2.0, 1.0, 3.14.
-
-#### 2. **Variáveis booleanas**
-+ **bool:** representando as expressões lógicas *verdadeiro* ou *falso* (*True* ou *False*).
-
-#### 3. **Variáveis de texto**
++ **int:** corresponde aos números inteiros, como: 1, -3, 0, 18.
++ **float:** os pontos flutuantes são números com parte decimal. Por exemplo: 0.75, -2.0, 1.0, 3.14.
++ **bool:** são as expressões lógicas *verdadeiro* ou *falso* (*True* ou *False*).
 + **str:** strings são sequências de caracteres, como palavras ou frases.
 
 ### **Variáveis compostas**
 
-#### 4. **Variáveis de lista**
 + **list:** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. As listas são definidas utilizando colchetes **[]**, onde os elementos são separados por vírgulas.
-
-#### 5. **Variáveis de tupla**
 + **tuple:** são semelhantes às listas, mas são imutáveis. As tuplas são definidos utilizando parênteses **()**. 
-
-#### 6. **Variáveis de dicionário**
 + **dict:** dicionários são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente. São definidos utilizando chaves **{}**, com cada par chave-valor sendo separado por vírgula.
 
 ## Inicialização de variáveis
