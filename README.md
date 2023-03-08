@@ -13,9 +13,9 @@ Em programação, as variáveis são usadas para armazenar dados na memória do 
 
 ### **Variáveis sequenciais**
 + **Strings (str):** strings são sequências de caracteres, como palavras ou frases.
-+ **Listas (list):** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. 
-+ **Tuplas (tuple):** são semelhantes às listas, mas são imutáveis.
-+ **Dicionários (dict):** são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente.
++ **Listas (list):** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. As listas são definidas utilizando colchetes **[]**, onde os elementos são separados por vírgulas.
++ **Tuplas (tuple):** são semelhantes às listas, mas são imutáveis. As tuplas são definidos utilizando parênteses **()**. 
++ **Dicionários (dict):** dicionários são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente. São definidos utilizando chaves **{}**, com cada par chave-valor sendo separado por vírgula.
 
 ### Inicialização de variáveis
 
