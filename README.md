@@ -6,19 +6,22 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 
 Em programação, as variáveis são usadas para armazenar dados na memória do computador. Elas têm um nome e um tipo de dados associado, que determina o que pode ser armazenado nelas.
 
-+ **Inteiros (int)**
-+ **Pontos flutuantes (float)**
+### **Variáveis simples**
++ **Inteiros (int):** são números inteiros, ou seja, não possuem casas decimais, como 1, 2, 3, etc.
++ **Números de ponto flutuante (float):** são números com casas decimais, como 0.75, 1.0, 3.14, etc.
++ **Booleanos (bool):** são expressões lógicas, cujo valor pode ser *True* ou *False*.
+
+### **Variáveis sequenciais**
 + **Strings (str)**
-+ **Booleanos (bool)**
 + **Listas (list)**
 + **Tuplas (tuple)**
 + **Dicionários (dict)**
 
 ### Inicialização de variáveis
 
-A inicialização de uma variável é feita atribuindo um valor a ela usando o operador de atribuição "=":
+A inicialização de uma variável é feita atribuindo um valor a ela usando o operador de atribuição (=):
 
-Por exemplo, para inicializar uma variável "x" com valor 42, escreve-se o seguinte:
+Por exemplo, para inicializar uma variável "x" com valor 42, digita-se o seguinte:
 
 ~~~
 x = 42
@@ -87,7 +90,9 @@ ValueError: invalid literal for int() with base 10
 
 ## Tipos de dados
 
-Para verificar o tipo de uma variável "x", usa-se a função "type()":
+Para saber o tipo de dados de um determinado valor, usa-se a função "type()". Essa função retorna o tipo da variável fornecida como parâmetro.
+
+Por exemplo, para verificar o tipo de dados de uma variável chamada "x", digita-se o seguinte:
 
 ~~~
 x = 42
