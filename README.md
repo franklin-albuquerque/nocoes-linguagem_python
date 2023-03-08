@@ -6,6 +6,8 @@ Python é uma linguagem de programação de alto nível, interpretada, orientada
 
 Em programação, as variáveis são usadas para armazenar dados na memória do computador. Elas têm um nome e um tipo de dados associado, que determina o que pode ser armazenado nelas.
 
+### **Variáveis básicas**
+
 #### 1. **Variáveis númericas**
 + **int:** corresponde aos números inteiros, positivos ou negativos. Por exemplo: 1, -3, 0, 18.
 + **float:** os pontos flutuantes são números com parte fracionária. Por exemplo: 0.75, -2.0, 1.0, 3.14.
@@ -16,6 +18,8 @@ Em programação, as variáveis são usadas para armazenar dados na memória do 
 #### 3. **Variáveis de texto**
 + **str:** strings são sequências de caracteres, como palavras ou frases.
 
+### **Variáveis compostas**
+
 #### 4. **Variáveis de lista**
 + **list:** listas são coleções ordenadas de valores, que podem ser de diferentes tipos. As listas são definidas utilizando colchetes **[]**, onde os elementos são separados por vírgulas.
 
@@ -25,20 +29,18 @@ Em programação, as variáveis são usadas para armazenar dados na memória do 
 #### 6. **Variáveis de dicionário**
 + **dict:** dicionários são coleções de pares chave-valor, onde cada chave é única e possui um valor correspondente. São definidos utilizando chaves **{}**, com cada par chave-valor sendo separado por vírgula.
 
-### Inicialização de variáveis
+## Inicialização de variáveis
 
 A inicialização de uma variável é feita ao atribuir um valor a ela usando o operador de atribuição (=):
 
-Por exemplo, para inicializar uma variável "x" com valor 42, digita-se o seguinte:
-
 ~~~
-x = 42
-~~~
-
-Também é possível inicializar mais de uma variável de uma só vez:
-
-~~~
-a, b, c, d = 1, 2, 3, 4
+inteiro = 42
+ponto_flutuante = 3.14
+booleana = True
+texto = "Olá, mundo!"
+lista = [-4, 1, 6, 2, 0]
+tupla = (-4, 1, 6, 2, 0)
+dicionário = {'chave1': valor1, 'chave2': valor2}
 ~~~
 
 ## Noções básicas sobre entrada e saída de dados
@@ -48,22 +50,22 @@ a, b, c, d = 1, 2, 3, 4
 Para exibir uma mensagem ao usuário, utiliza-se a função "print()":
 
 ~~~
-string = "Olá, mundo!"
-print(string)
+texto = "Olá, mundo!"
+print(texto)
 ~~~
 
 ### Entrada
 
-A entrada de dados em Python é feita utilizando a função "input()". Por padrão, o "input()" recebe como parâmetro uma string.
+A entrada de dados em Python é feita utilizando a função "input()" — que recebe como parâmetro uma string.
 
 ~~~
-string = input()
+entrada = input()
 ~~~
 
 Para solicitar os dados ao usuário exibindo uma mensagem, deve-se inserir a mensagem entre duas aspas na função "input()" — as aspas podem ser simples ou duplas. Mas é importante manter um padrão de escrita: sempre usar ou aspas simples ou aspas duplas.
 
 ~~~
-string = input(‘Digite algo: ’)
+entrada = input(‘Digite algo: ’)
 ~~~
 
 ## Conversão de variáveis
